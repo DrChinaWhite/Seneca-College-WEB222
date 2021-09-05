@@ -1,0 +1,30 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+  font-weight: bold;
+}
+
+#description,
+#notes,
+#name,
+#email,
+#license {
+  width: 525px;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form-control small {
+  color: red;
+  visibility: hidden;
+}
