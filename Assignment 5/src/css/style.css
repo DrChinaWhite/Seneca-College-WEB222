@@ -1,0 +1,113 @@
+/* Header */
+#hero {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#hero > img {
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+
+.quote {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Wildlife Observations Map */
+#map-container {
+  height: 450px;
+  width: 100%;
+}
+
+.marker-text {
+  text-align: center;
+}
+
+/* Wildlife Observations Table */
+.buttons {
+  text-align: center;
+  margin: 2em;
+}
+.buttons > button:hover {
+  background-color: lightblue;
+}
+
+td {
+  vertical-align: middle;
+}
+
+time {
+  background: inherit;
+}
+
+#legend {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#observation-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 515px;
+  margin-bottom: 25px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-img {
+  height: 375px;
+  width: 375px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body {
+  padding: 15px;
+  font-family: Arial;
+}
+
+.card-body > h3 {
+  size: 20px;
+  padding-left: 3px;
+}
+
+.card-body > h4 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+
+.card-icons {
+  text-align: right;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-icons > i {
+  margin: 5px;
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+}
