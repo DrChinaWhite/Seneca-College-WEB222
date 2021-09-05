@@ -9,7 +9,7 @@
  * Please update the following with your information:
  *
  *      Name: Dale Hawkins
- *      Student ID: <YOUR_STUDENT_ID>
+ *      Student ID: #########
  *      Date: Feb 1st 20201
  *
  * Please see all unit tests in the files problem-00.test.js, problem-01.test.js, etc.
